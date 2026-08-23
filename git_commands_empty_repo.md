@@ -71,7 +71,6 @@ git push
 ```
 
 
-
 **One-Line Shortcuts**
 
 * **PowerShell 7 / Git Bash (Recommended):** Stops automatically if an earlier step fails.
