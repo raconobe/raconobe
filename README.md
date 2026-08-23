@@ -1,7 +1,7 @@
-==== 
+=
                                    YOUR NAME
           City, Country | email@example.com | linkedin.com/in/yourprofile
-==
+=
 
 PROFESSIONAL SUMMARY
 --------------------------------------------------------------------------------
