@@ -1,10 +1,11 @@
 =
-                                   YOUR NAME
-          City, Country | email@example.com | linkedin.com/in/yourprofile
+Raul Contreras Oberto
+City, Country | email@example.com | linkedin.com/in/yourprofile
 =
 
 PROFESSIONAL SUMMARY
 --------------------------------------------------------------------------------
+
 Senior Enterprise Systems Consultant & Software Engineer with 20+ years of 
 experience designing, configuring, and extending mission-critical ERP 
 architectures. Combines a deep computer science foundation in procedural and 
@@ -14,6 +15,7 @@ tooling to build scalable integrations and side-by-side applications.
 
 CURRENT TECHNICAL STACK & CONTINUOUS EDUCATION
 --------------------------------------------------------------------------------
+
 • Languages & Web:     Python, JavaScript (ES6+), HTML5, CSS3, PHP, REST APIs
 • Data & Databases:    Oracle SQL, PL/SQL, MySQL, Relational Schema Design (1NF-BCNF)
 • Modern Tooling:      Git/GitHub, Docker, Virtual Environments, VS Code
@@ -21,6 +23,7 @@ CURRENT TECHNICAL STACK & CONTINUOUS EDUCATION
 
 PROFESSIONAL EXPERIENCE
 --------------------------------------------------------------------------------
+
 SAP SD/MM CONSULTANT & SYSTEMS ARCHITECT                             2006 – Present
 Enterprise Solutions
 • Led functional configuration and custom integration projects for enterprise clients.
@@ -30,6 +33,7 @@ Enterprise Solutions
 
 COMPUTER SCIENCE FOUNDATIONS & EDUCATION
 --------------------------------------------------------------------------------
+
 B.S. in Computer Science / Software Engineering
 • Core University Curriculum:  Object-Oriented Programming (C++), Legacy Systems 
                                (COBOL, Fortran), Web Development (Java, PHP, HTML)
@@ -37,7 +41,3 @@ B.S. in Computer Science / Software Engineering
                                Data Structures, Memory & Compiler Fundamentals
 • Specialized Certifications: SAP BASIS System Administration, Oracle Database 
                                & PL/SQL Development
-
-
-
-                              
