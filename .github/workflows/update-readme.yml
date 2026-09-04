@@ -14,12 +14,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       
-      # This pulls your latest GitHub activity/stats or updates content
       - name: Update README with Metrics or Activity
-        use: gautamkrishnar/blog-post-workflow@v1
+        uses: gautamkrishnar/blog-post-workflow@v1
         with:
           comment_tag_work: "PROJECT-LIST"
-          feed_list: "" # Leave empty if you just want to use built-in widgets or custom scripts
+          feed_list: ""
           
       - name: Commit and push if changed
         run: |
