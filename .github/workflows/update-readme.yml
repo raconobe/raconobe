@@ -1,0 +1,29 @@
+name: Update Profile README
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs daily at midnight
+  workflow_dispatch: # Allows manual trigger from GitHub UI
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+      
+      # This pulls your latest GitHub activity/stats or updates content
+      - name: Update README with Metrics or Activity
+        use: gautamkrishnar/blog-post-workflow@v1
+        with:
+          comment_tag_work: "PROJECT-LIST"
+          feed_list: "" # Leave empty if you just want to use built-in widgets or custom scripts
+          
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: auto-update profile README" && git push)
